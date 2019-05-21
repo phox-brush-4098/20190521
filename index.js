@@ -28,7 +28,7 @@ app.get('/addr', function(req, res) {
     if(e.name == req.query.name) {
       result.result++;
       result.data.push(e.info);
-    }\
+    }
   });
   res.send(result);
 });
